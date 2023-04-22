@@ -29,8 +29,6 @@ LUCI_DEPENDS:=\
 
 PKG_LICENSE:=Apache-2.0
 
-HOST_BUILD_DIR:=$(BUILD_DIR_HOST)/$(PKG_NAME)
-
 include $(INCLUDE_DIR)/host-build.mk
 
 define Package/luci-base/conffiles
